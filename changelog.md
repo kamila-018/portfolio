@@ -1,4 +1,3 @@
 Feature: portifolio
 ###
-- portifolio 
-- que será construído nessa unidade 
+- portifolio que será construído nessa unidade 
