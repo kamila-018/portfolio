@@ -5,9 +5,41 @@ body {
   padding: 20px;
 }
 h1 {
-  color: #995691;
+  color: #ffffff;
 }
 ul {
-  background-color: #97689c;
+  background-color: #ffffff;
   border-radius: 8px;
+}
+button:hover{
+
+}
+
+.btn{
+  color: #ffffff;
+  border: nome;
+  font-size: rem;
+  border-radius: 8px;
+  cursor: pointer;
+  float: right;
+  padding: 12px;
+}
+.btn-large{
+  padding: 20px;
+
+}
+.btn-red{
+  background-color: red;
+}
+
+.btn-blue{
+  background-color: blue;
+}
+
+.btn-green{
+  background-color: green;
+}
+
+.senac-card-panel{
+  padding: 20px;
 }

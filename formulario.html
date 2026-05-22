@@ -15,14 +15,20 @@
         <label for="data">Data</label>
         <input type="date" id="data">
         <label for="assunto">Assunto</label>
-        <select name="" id="assunto">  
-        <option>Dúvida</option>
-        <option>Orçamento</option>
-        <option>Contato</option>
+
+        <select name="assunto" id="assunto">
+            <option>[SELECIONE]</option>
+            <option>Dúvida</option>
+            <option>Orçamento</option>
+            <option>Contato</option>
         </select>
+
         <label for="mensagem">Mensagem</label>
-        <textarea id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
-        <button type="submit">Enviar</button>
+        <textarea name="mensagem" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+
+        <button class="btn btn-green btn-small" type="submit">Small</button>
+        <button class="btn btn-green" type="submit">Default</button>
+        <button class="btn btn-red btn-large senac-card-panel" type="submit">Large</button>
     </body>
     </form>
 </html>
