@@ -1,0 +1,13 @@
+button:hover {
+    transform: scale(1.1);
+}
+
+img:hover {
+    transform: rotate(45deg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transform: skew(10deg);
+}
+

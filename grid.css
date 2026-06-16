@@ -1,0 +1,16 @@
+.div {
+    background-color: rgb(7, 15, 174);
+    margin: 5px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.container {
+    display: grid;
+    grid-template-rows:
+    50px 50px 50px 50px;
+
+
+}
